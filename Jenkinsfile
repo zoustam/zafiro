@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     triggers {
-        cron('0 0/1 * 1/1 * ? *')
+        pollSCM('0 0/1 * 1/1 * ? *')
     }
 
     stages {
