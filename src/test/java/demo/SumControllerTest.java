@@ -13,7 +13,7 @@ public class SumControllerTest {
     public void testCalculator() throws Exception {
     	Long res = controller.sum(1l,2l);
     	
-    	Assert.assertTrue(13 == res);
+    	Assert.assertTrue(3 == res);
     }
 
 }
